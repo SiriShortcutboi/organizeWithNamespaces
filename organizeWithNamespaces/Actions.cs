@@ -4,12 +4,14 @@ namespace App.Actions
     {
         public static void ViewAccount()
         {
-            Console.WriteLine("Account details displayed.");
+            Console.WriteLine("Now Viewing: Your checking account");
+            Console.WriteLine("Checking: 5,000,000 dollars");
         }
 
-        public static void UpdateAccount()
+        public static void CashDeposit()
         {
-            Console.WriteLine("Account has been updated.");
+            Console.WriteLine("Your cash has been deposited into your new Savings account");
+            Console.WriteLine("Amount: 1,500");
         }
     }
 }
